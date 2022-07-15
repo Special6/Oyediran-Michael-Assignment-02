@@ -32,11 +32,10 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  let evenNumber - [];
+  let evenNumber = [];
   arrayOfNumbers.forEach(number => {
     if(number % 2 === 0) {
       evenNumber.push(number)
-    
     }
   })
     return evenNumber.length;
